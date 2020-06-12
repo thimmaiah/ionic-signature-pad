@@ -1,8 +1,8 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { IonicsignaturepadComponent } from './components/ionicsignaturepad.component';
 import { IonicsignaturepadProvider } from './providers/ionicsignaturepad.provider';
-import { IonicModule } from '@ionic/angular';
 import { SignaturePadModule } from 'angular2-signaturepad';
+import { IonicApp, IonicModule } from 'ionic-angular';
  
 @NgModule({
     imports: [

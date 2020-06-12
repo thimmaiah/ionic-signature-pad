@@ -36,8 +36,8 @@
     "@angular/compiler": "7.0.0",
     "@angular/compiler-cli": "7.0.0",
     "@angular/language-service": "7.0.0",
-    "@ionic/ng-toolkit": "^1.0.0",
-    "@ionic/schematics-angular": "^1.0.0",
+    "ionic": "^5.4.16",
+    "ionic-angular": "3.9.10",
     "@ionic/app-scripts": "^3.2.0",
     "@types/jasmine": "^2.8.11",
     "@types/jasminewd2": "^2.0.6",
@@ -62,6 +62,9 @@
     "protractor": "^5.4.0",
     "ts-node": "^7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~2.9.2"
+    "typescript": "3.1.1"
+  },
+  "dependencies": {
+    "rxjs-compat": "^6.5.5"
   }
 }
