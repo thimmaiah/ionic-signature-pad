@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component, Input, ViewChild } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { SignaturePad } from 'angular2-signaturepad/signature-pad';
-var HTML_TEMPLATE = "\n<ion-row>\n<ion-col style=\"text-align:right;\" class=\"no-padding\">\n<ion-button fill=\"clear\" (click)=\"drawClear()\" style=\"--padding-top: 0; --padding-bottom: 0; --padding-start: 0; --padding-end: 0; --margin-top: 4px; --margin-bottom: 0; --margin-start: 0; --margin-end: 8px;\"><ion-icon slot=\"icon-only\" name=\"close\" color=\"dark\"></ion-icon></ion-button>\n</ion-col>\n</ion-row>\n<signature-pad [options]=\"signaturePadOptions\" id=\"signatureCanvas\" (onBeginEvent)=\"drawStart()\" (onEndEvent)=\"drawComplete()\"></signature-pad>";
+var HTML_TEMPLATE = "\n<ion-row>\n<ion-col style=\"text-align:right;\" class=\"no-padding\">\n<button ion-button fill=\"clear\" (click)=\"drawClear()\" style=\"--padding-top: 0; --padding-bottom: 0; --padding-start: 0; --padding-end: 0; --margin-top: 4px; --margin-bottom: 0; --margin-start: 0; --margin-end: 8px;\"><ion-icon slot=\"icon-only\" name=\"close\" color=\"dark\"></ion-icon></button>\n</ion-col>\n</ion-row>\n<signature-pad [options]=\"signaturePadOptions\" id=\"signatureCanvas\" (onBeginEvent)=\"drawStart()\" (onEndEvent)=\"drawComplete()\"></signature-pad>";
 var IonicsignaturepadComponent = /** @class */ (function () {
     function IonicsignaturepadComponent() {
         this.signaturePadOptions = {};

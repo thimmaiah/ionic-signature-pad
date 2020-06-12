@@ -5,7 +5,7 @@ import {SignaturePad} from 'angular2-signaturepad/signature-pad';
 const HTML_TEMPLATE = `
 <ion-row>
 <ion-col style="text-align:right;" class="no-padding">
-<ion-button fill="clear" (click)="drawClear()" style="--padding-top: 0; --padding-bottom: 0; --padding-start: 0; --padding-end: 0; --margin-top: 4px; --margin-bottom: 0; --margin-start: 0; --margin-end: 8px;"><ion-icon slot="icon-only" name="close" color="dark"></ion-icon></ion-button>
+<button ion-button fill="clear" (click)="drawClear()" style="--padding-top: 0; --padding-bottom: 0; --padding-start: 0; --padding-end: 0; --margin-top: 4px; --margin-bottom: 0; --margin-start: 0; --margin-end: 8px;"><ion-icon slot="icon-only" name="close" color="dark"></ion-icon></button>
 </ion-col>
 </ion-row>
 <signature-pad [options]="signaturePadOptions" id="signatureCanvas" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()"></signature-pad>`;
